@@ -1,20 +1,16 @@
-name: 'TestProject Execute Jobs'
-description: 'Execute all the TestProject jobs in a specific project and ensure all pass.'
-author: 'Mahan Fathi'
+name: 'TestProject Execute Tests'
+description: 'Execute TestProject test'
+author: 'Christopher'
 runs:
   using: 'node12'
   main: 'dist/index.js'
 inputs:
   project_id:
-    description: 'Project ID'
+    description: 'lspUDmmPr0y_50DEJReBJQ'
     required: true
   api_key:
-    description: 'API Key'
+    description: 'zesqLKp0Zl1qd3ULPvDbsNg40v8SkgfcXkdWug-LYtU1'
     required: true
-#   check_interval:
-#     description: 'Interval in seconds to check the status of running tests'
-#     required: false
-#     default: '15'
 
 branding:
   icon: 'check-circle'  
