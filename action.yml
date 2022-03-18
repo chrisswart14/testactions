@@ -1,9 +1,9 @@
-name: 'TestProject Execute Tests'
+cname: 'TestProject Execute Tests'
 description: 'Execute TestProject test'
 author: 'Christopher'
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'execute-tests.js'
 inputs:
   project_id:
     description: 'lspUDmmPr0y_50DEJReBJQ'
